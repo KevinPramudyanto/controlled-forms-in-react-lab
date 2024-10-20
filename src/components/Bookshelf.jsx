@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const BookShelf = () => {
   const [books, setBooks] = useState([]);
-
   const [newBook, setNewBook] = useState({ title: "", author: "" });
 
   const handleInputChange = (event) => {
