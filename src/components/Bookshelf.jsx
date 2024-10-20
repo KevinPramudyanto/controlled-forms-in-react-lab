@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BookShelf = () => {
+const Bookshelf = () => {
   const [books, setBooks] = useState([]);
   const [newBook, setNewBook] = useState({ title: "", author: "" });
 
@@ -52,4 +52,4 @@ const BookShelf = () => {
   );
 };
 
-export default BookShelf;
+export default Bookshelf;

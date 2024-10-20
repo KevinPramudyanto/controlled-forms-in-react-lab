@@ -1,11 +1,11 @@
 import React from "react";
-import BookShelf from "./components/BookShelf";
+import Bookshelf from "./components/Bookshelf";
 
 function App() {
   return (
     <>
       <h1>My Bookshelf</h1>
-      <BookShelf />
+      <Bookshelf />
     </>
   );
 }
