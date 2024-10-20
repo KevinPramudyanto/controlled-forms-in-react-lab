@@ -44,7 +44,7 @@ const Bookshelf = () => {
         {books.map((book, idx) => (
           <div key={idx} className="bookCard">
             <h6>{book.title}</h6>
-            <p>{book.author}</p>
+            <p>by {book.author}</p>
           </div>
         ))}
       </div>
