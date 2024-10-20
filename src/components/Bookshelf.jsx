@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
 const BookShelf = () => {
-  const [books, setBooks] = useState([
-    { title: "Fourth Wing", author: "Rebecca Yarros" },
-    { title: "The Lion, the Witch and the Wardrobe", author: "C.S. Lewis" },
-  ]);
+  const [books, setBooks] = useState([]);
 
   const [newBook, setNewBook] = useState({ title: "", author: "" });
 
